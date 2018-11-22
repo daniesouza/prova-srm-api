@@ -1,0 +1,7 @@
+CREATE TABLE lancamento (
+	id BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+	nome_cliente VARCHAR(50) NOT NULL,
+	limite_credito DECIMAL(10,2) NOT NULL,
+	risco VARCHAR(2),
+	taxa_juros DECIMAL(10,2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
