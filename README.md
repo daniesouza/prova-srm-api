@@ -35,7 +35,7 @@ mvn package spring-boot:run
 
 * Por falta de tempo, não fiz 100% de cobertura dos casos de teste
 * CorsFilter esta configurado para aceitar todo o tipo de origem, em produção deve se especificar uma origem para se evitar ataques
-
+* Backend sem seguranca implementada. e necessario implementar algum tipo de seguranca por tokens como por exemplo oauth2
 
 ### Class Diagram
 
