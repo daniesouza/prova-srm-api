@@ -1,6 +1,14 @@
 # Lancamentos prova srm - Simple Springboot + mysql application
 
 
+### REQUISITOS E INSTRUCOES PARA EXECUTAR O PROJETO
+
+* Necessario ter o MYSQL SERVER instalado (https://dev.mysql.com/downloads/mysql/) com a base prova_srm_db criada
+
+* E necessário ter o JDK instalado(build path esta para o java 8);
+
+* Foi utilizado o FlyWay para migração de banco de dados, então nao é necessário rodar nenhum script, somente rodar a aplicação
+
 ### Mysql configuraçao.
 * Database: prova_srm_db
 * url: jdbc:mysql://localhost:3306/prova_srm_db
