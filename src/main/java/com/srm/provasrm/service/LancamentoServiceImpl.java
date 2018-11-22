@@ -38,7 +38,7 @@ public class LancamentoServiceImpl implements LancamentoService {
 	}
 
 	@Override
-    public Lancamento update(Long codigo, Lancamento lancamento) {
+    public Lancamento update(@Valid Long codigo,@Valid Lancamento lancamento) {
 
         if (logger.isDebugEnabled()) {
             logger.debug("update lancamento "+lancamento);
